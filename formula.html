@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANOVA F-Statistic</title>
+    
+    <!-- MathJax CDN -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: #ffffff;
+            color: #000000;
+            padding: 50px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        h3 {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #000;
+        }
+        
+        .equation-box {
+            background-color: #ffffff;
+            padding: 30px;
+            margin: 30px 0;
+            border: 2px solid #000;
+            border-radius: 8px;
+            position: relative;
+        }
+        
+        .equation-content {
+            text-align: center;
+            font-size: 20px;
+        }
+        
+        .equation-number {
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        p {
+            line-height: 1.8;
+            margin: 15px 0;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h3>3.3.3 ANOVA F-Statistic Selection</h3>
+    
+    <p>Identifies features with significant mean differences between classes:</p>
+    
+    <div class="equation-box">
+        <div class="equation-content">
+            $$F = \frac{MS_{\text{between}}}{MS_{\text{within}}} = \frac{\sum_{i=1}^{k}n_i(\bar{x}_i - \bar{x})^2/(k-1)}{\sum_{i=1}^{k}\sum_{j=1}^{n_i}(x_{ij} - \bar{x}_i)^2/(N-k)}$$
+        </div>
+        <span class="equation-number">(13)</span>
+    </div>
+    
+    <p>
+        Top 120 ANOVA features concatenated with MI features create a 240-feature set 
+        capturing both line<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANOVA F-Statistic Equation</title>
+    
+    <!-- MathJax for LaTeX rendering -->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: white;
+            color: black;
+            padding: 50px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .equation-container {
+            background-color: white;
+            padding: 40px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .equation {
+            font-size: 28px;
+            line-height: 2.5;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="equation-container">
+        <div class="equation">
+            \[
+            F = \frac{MS_{\text{between}}}{MS_{\text{within}}} = 
+            \frac{\displaystyle\sum_{i=1}^{k}n_i(\bar{x}_i - \bar{x})^2/(k-1)}
+            {\displaystyle\sum_{i=1}^{k}\sum_{j=1}^{n_i}(x_{ij} - \bar{x}_i)^2/(N-k)}
+            \]
+        </div>
+    </div>
+</body>
+</html>
+ar differential expression and complex non-linear patterns.
+    </p>
+</body>
+</html>
